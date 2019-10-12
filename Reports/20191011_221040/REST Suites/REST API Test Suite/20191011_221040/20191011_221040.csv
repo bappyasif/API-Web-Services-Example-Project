@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REST API Test Suite,,REST API Test Cases,,2019-10-11 22:12:19,2019-10-11 22:12:27,7.846s,INCOMPLETE
+,,,,,,,
+Test Cases/User REST API Services/HTTP Methods Test Case,,Testing Methods,,2019-10-11 22:12:19,2019-10-11 22:12:25,6.322s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 22:12:19,2019-10-11 22:12:22,2.901s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Create User REST Request""))",,,,2019-10-11 22:12:22,2019-10-11 22:12:23,1.099s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Update User REST Request""))",,,,2019-10-11 22:12:23,2019-10-11 22:12:24,1.028s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Delete User REST Request""))",,,,2019-10-11 22:12:24,2019-10-11 22:12:25,0.954s,PASSED
+,,,,,,,
+Test Cases/User REST API Services/List Users Test Case,,Using REST API Service,,2019-10-11 22:12:25,2019-10-11 22:12:27,1.162s,PASSED
+"sendRequest(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 22:12:26,2019-10-11 22:12:26,0.387s,PASSED
+"users_list = sendRequestAndVerify(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 22:12:26,2019-10-11 22:12:27,0.532s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].first_name"", ""Lindsay"")",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.014s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].last_name"", ""Ferguson"")",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.013s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].id"", ""8"")",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.014s,PASSED
+"verifyElementsCount(users_list, ""data"", 6)",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.019s,PASSED
+"verifyResponseStatusCodeInRange(users_list, 100, 200)",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.008s,PASSED
+"verifyResponseStatusCode(users_list, 200)",,,,2019-10-11 22:12:27,2019-10-11 22:12:27,0.002s,PASSED

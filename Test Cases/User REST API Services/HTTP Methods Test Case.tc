@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing Methods</description>
+   <name>HTTP Methods Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49f31ea2-f089-45a7-9e9e-cce539b9fed7</testCaseGuid>
+</TestCaseEntity>

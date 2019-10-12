@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Calculator Methods Test Suite" time="6" tests="1" failures="0" errors="0">
+    <testsuite name="Calculator Methods Test Suite" tests="1" failures="0" errors="0" time="6" timestamp="2019-10-11 22:19:02" hostname="BaPpY - 192.168.0.108" id="Test Suites/SOAP API/Calculator Methods Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project For Api Services\\Reports\\20191011_221900\\SOAP API\\Calculator Methods Test Suite\\20191011_221900"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project For Api Services\\Reports\\20191011_221900\\SOAP API\\Calculator Methods Test Suite\\20191011_221900\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Calculator Tests/Test Case For Addition" classname="Test Cases/Calculator Tests/Test Case For Addition" status="PASSED">
+            <system-out>2019-10-11 22:19:03 - [TEST_CASE][PASSED] - Test Cases/Calculator Tests/Test Case For Addition: Test Cases/Calculator Tests/Test Case For Addition&#xD;
+&#xD;
+2019-10-11 22:19:03 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Calculator SOAP API Service/Calculate Addition")): Send request successfully&#xD;
+&#xD;
+2019-10-11 22:19:05 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\Example Project For Api Services\Reports\20191011_221900\SOAP API\Calculator Methods Test Suite\20191011_221900\requests\main\0.har&#xD;
+&#xD;
+2019-10-11 22:19:06 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-11 22:19:06 - [TEST_STEP][PASSED] - result_response = sendRequestAndVerify(findTestObject("Calculator SOAP API Service/Calculate Addition")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-11 22:19:07 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\Example Project For Api Services\Reports\20191011_221900\SOAP API\Calculator Methods Test Suite\20191011_221900\requests\main\1.har&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-11 22:19:07 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-10-11 22:19:07 - [TEST_STEP][PASSED] - verifyElementText(response, "AddResponse.AddResult", "7"): Verify element text successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null&#xD;
+&#xD;
+2019-10-11 22:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "7"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(result_response, "AddResponse.AddResult", "7"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-11 22:19:09 - [MESSAGE][PASSED] - Verify element property value successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-11 22:19:02 - [TEST_SUITE][INCOMPLETE] - Calculator Methods Test Suite: null</system-out>
+        <system-err>2019-10-11 22:19:02 - [TEST_SUITE][INCOMPLETE] - Calculator Methods Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,1 @@
+katalon -propertiesFile="G:\Katalon Studio\Katalon Workspace\Example Project For Api Services\console.properties02.properties" -runMode=console

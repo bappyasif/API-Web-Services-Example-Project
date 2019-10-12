@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Calculator SOAP API Service</description>
+   <name>Test Case For Addition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6249c53-180b-47d6-8655-8b67c079313d</testCaseGuid>
+</TestCaseEntity>

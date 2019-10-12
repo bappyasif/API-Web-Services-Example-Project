@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REST API Test Suite,,REST API Test Cases,,2019-10-11 21:53:55,2019-10-11 21:54:06,11.011s,INCOMPLETE
+,,,,,,,
+Test Cases/User REST API Services/HTTP Methods Test Case,,Testing Methods,,2019-10-11 21:53:55,2019-10-11 21:54:05,9.586s,FAILED
+"sendRequestAndVerify(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 21:53:55,2019-10-11 21:54:02,6.189s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Create User REST Request""))",,,,2019-10-11 21:54:02,2019-10-11 21:54:03,1.069s,PASSED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Update User REST Request""))",,,,2019-10-11 21:54:03,2019-10-11 21:54:04,1.134s,FAILED
+"sendRequestAndVerify(findTestObject(""User REST API Service/Delete User REST Request""))",,,,2019-10-11 21:54:04,2019-10-11 21:54:05,0.899s,PASSED
+,,,,,,,
+Test Cases/User REST API Services/List Users Test Case,,Using REST API Service,,2019-10-11 21:54:05,2019-10-11 21:54:06,1.119s,PASSED
+"sendRequest(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 21:54:05,2019-10-11 21:54:05,0.329s,PASSED
+"users_list = sendRequestAndVerify(findTestObject(""User REST API Service/List Users""))",,,,2019-10-11 21:54:05,2019-10-11 21:54:06,0.533s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].first_name"", ""Lindsay"")",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.014s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].last_name"", ""Ferguson"")",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.014s,PASSED
+"verifyElementPropertyValue(users_list, ""data[1].id"", ""8"")",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.016s,PASSED
+"verifyElementsCount(users_list, ""data"", 6)",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.021s,PASSED
+"verifyResponseStatusCodeInRange(users_list, 100, 200)",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.007s,PASSED
+"verifyResponseStatusCode(users_list, 200)",,,,2019-10-11 21:54:06,2019-10-11 21:54:06,0.001s,PASSED

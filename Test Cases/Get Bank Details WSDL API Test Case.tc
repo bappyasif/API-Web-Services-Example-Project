@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BLZ BANK</description>
+   <name>Get Bank Details WSDL API Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4277bd45-1b53-49fa-ad34-362fe229e3b4</testCaseGuid>
+</TestCaseEntity>

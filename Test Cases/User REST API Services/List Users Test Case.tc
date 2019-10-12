@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Using REST API Service</description>
+   <name>List Users Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b937be15-ace4-47d8-ad80-9958ab5f4577</testCaseGuid>
+</TestCaseEntity>
