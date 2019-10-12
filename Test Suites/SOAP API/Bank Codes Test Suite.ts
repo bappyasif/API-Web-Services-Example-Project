@@ -14,6 +14,6 @@
       <guid>099feb56-818e-4c5f-98f8-76ee2be7ec9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Get Bank Details WSDL API Test Case</testCaseId>
+      <testCaseId>Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

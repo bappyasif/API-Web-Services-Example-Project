@@ -14,6 +14,6 @@
       <guid>6897785f-3e61-447d-a4bd-c165728ba73e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator Tests/Test Case For Addition</testCaseId>
+      <testCaseId>Test Cases/SOAP API Web Services/Calculator Tests/Test Case For Addition</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

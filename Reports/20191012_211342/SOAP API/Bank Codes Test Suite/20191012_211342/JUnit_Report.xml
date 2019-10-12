@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Bank Codes Test Suite" time="5" tests="1" failures="0" errors="0">
+    <testsuite name="Bank Codes Test Suite" tests="1" failures="0" errors="0" time="5" timestamp="2019-10-12 21:13:58" hostname="BaPpY - 192.168.0.108" id="Test Suites/SOAP API/Bank Codes Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project For Api Services\\Reports\\20191012_211342\\SOAP API\\Bank Codes Test Suite\\20191012_211342"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project For Api Services\\Reports\\20191012_211342\\SOAP API\\Bank Codes Test Suite\\20191012_211342\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case" classname="Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case" status="PASSED">
+            <system-out>2019-10-12 21:13:58 - [TEST_CASE][PASSED] - Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case: Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case&#xD;
+&#xD;
+2019-10-12 21:13:58 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP/getBank")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-12 21:14:01 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\Example Project For Api Services\Reports\20191012_211342\SOAP API\Bank Codes Test Suite\20191012_211342\requests\main\0.har&#xD;
+&#xD;
+2019-10-12 21:14:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-12 21:14:01 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-12 21:14:01 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-12 21:14:01 - [TEST_STEP][PASSED] - verifyElementText(response, "getBankResponse.details.bic", "ABCADEFFXXX"): Verify element text successfully&#xD;
+&#xD;
+2019-10-12 21:14:03 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-12 21:14:03 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-12 21:14:03 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-12 21:13:58 - [TEST_SUITE][INCOMPLETE] - Bank Codes Test Suite: null</system-out>
+        <system-err>2019-10-12 21:13:58 - [TEST_SUITE][INCOMPLETE] - Bank Codes Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

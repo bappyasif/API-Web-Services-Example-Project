@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bank Codes Test Suite,,Using SOAP API Web Services,,2019-10-12 21:13:58,2019-10-12 21:14:03,5.260s,INCOMPLETE
+,,,,,,,
+Test Cases/SOAP API Web Services/Bank Codes/Get Bank Details WSDL API Test Case,,BLZ BANK,,2019-10-12 21:13:58,2019-10-12 21:14:03,4.977s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP/getBank""))",,,,2019-10-12 21:13:58,2019-10-12 21:14:03,4.709s,PASSED
